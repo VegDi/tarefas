@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+header{
+    padding: 16px;
+    background-color: rgb(39, 218, 98);
+    
+}
+h1{
+    margin-left: 10%;
+    text-transform: uppercase;
+    color: rgba(61, 53, 53, 0.911);
+}
+.container {
+    margin-left: 30%;
+    margin-top: 10%;
+}
+form{
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content:space-evenly ;
+    margin-bottom: 40px;
+}
+form input{
+    font-size: 24px;
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 2px solid #000000;
+    padding: 8px;
+}
+form button{
+    background-color: #009432;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+}
+.listagem, li{
+    
+    font-size: 26px;
+    cursor: pointer;
+}
+
+
